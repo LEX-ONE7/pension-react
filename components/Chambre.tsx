@@ -10,8 +10,8 @@ const Chambre = () => (
         <SliderChambre />
       </div>
       <div className="col-12 col-md-4 d-flex align-items-center column justify-content-center bg-info">
-        <h3 className="col">Our Bungalows</h3>
-        <p>Je suis un texte sans importance</p>
+        <h3 className="col">Nos Chambres</h3>
+        <p>Chambres Doubles</p>
       </div>
     </div>
   </div>
