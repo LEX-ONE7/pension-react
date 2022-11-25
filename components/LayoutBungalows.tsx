@@ -1,5 +1,16 @@
 import * as React from 'react';
 import Navbar from '../components/Navbar';
+import { getDataFromFirebase } from '../database/getDataFromFirebase';
+
+const [data, setData] = React.useState([]);
+React.useEffect(() => {
+  (async () => {
+    const response = await getDataFromFirebase('layout-bungalows');
+
+    console.log(response);
+    setData(response);
+  })();
+}, []);
 
 const LayoutBungalows = () => (
   <div className="container text-center">
