@@ -3,9 +3,11 @@ import Navbar from '../components/Navbar';
 import LayoutBungalows from '../components/LayoutBungalows';
 
 const Bungalows = () => {
-  <div>
-    <Navbar />
-    <LayoutBungalows />
-  </div>;
+  return (
+    <div>
+      <Navbar />
+      <LayoutBungalows />
+    </div>
+  );
 };
 export default Bungalows;

@@ -12,8 +12,8 @@ const root = createRoot(rootElement);
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
-  { path: '/Bungalows', element: <Bungalows /> },
-  { path: '/Activites', element: <Activites /> },
+  { path: '/bungalows', element: <Bungalows /> },
+  { path: '/activites', element: <Activites /> },
 ]);
 
 root.render(

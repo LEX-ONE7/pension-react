@@ -2,7 +2,6 @@ import * as React from 'react';
 import Navbar from '../components/Navbar';
 
 const Activites = () => {
-  
-  <Navbar />;
+  return <Navbar />;
 };
 export default Activites;

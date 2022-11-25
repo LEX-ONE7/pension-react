@@ -22,7 +22,7 @@ const Navbar = () => (
           <a className="nav-link active" aria-current="page" href="#">
             Accueil
           </a>
-          <a className="nav-link" href="../pages/Bungalows">
+          <a className="nav-link" href="/bungalows">
             Bungalows
           </a>
           <a className="nav-link" href="#">
