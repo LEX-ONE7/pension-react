@@ -10,7 +10,7 @@ const LayoutBungalows = () => (
         <SliderBungalows />
       </div>
       <div className="col-12 col-md-4 d-flex align-items-center column justify-content-center bg-info">
-        <h3 className="d-flex">Découvrez notre nouveau bungalow</h3>
+        <h3>Our Bungalows</h3>
         <p>Je suis un texte sans importance</p>
       </div>
     </div>
