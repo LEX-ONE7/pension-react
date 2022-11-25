@@ -26,7 +26,7 @@ const Navbar = () => (
             Bungalows
           </a>
           <a className="nav-link" href="#">
-            Activités
+            Activites
           </a>
           <a className="nav-link" href="#">
             Locations
