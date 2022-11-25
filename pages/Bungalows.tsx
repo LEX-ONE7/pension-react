@@ -7,6 +7,7 @@ const Bungalows = () => {
     <div>
       <Navbar />
       <LayoutBungalows />
+      <Chambre />
     </div>
   );
 };
