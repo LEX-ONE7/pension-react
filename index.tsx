@@ -9,7 +9,6 @@ import Bungalows from './pages/Bungalows';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
-
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/bungalows', element: <Bungalows /> },
